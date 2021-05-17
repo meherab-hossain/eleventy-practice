@@ -1,0 +1,20 @@
+{
+  "name": "eleventy-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx postcss css/tailwind.css -o _site/css/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2"
+  }
+}
