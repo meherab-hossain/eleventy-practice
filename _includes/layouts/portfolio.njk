@@ -1,0 +1,38 @@
+---
+layout: layouts/base.njk
+title: portfolio page
+
+---
+
+{% block content %}
+    <div class="md:flex ml-4">
+        <p class="text-xl text-white mt-20">
+          Hi There,<br />
+          I'm <strong class="text-yellow-400">Meherab Hossain</strong><br />
+          <strong class="text-green-400">Junior Front End Developer</strong
+          ><br />
+          Programmer | Web Developer | Engineer <br />
+          I am a <strong class="text-green-300">self-motivated</strong> learner
+          love to dive <br />
+          into different areas of my interest and do experiment with it.<br/><br />
+          <Span class="btn bg-gray-700 text-white hover:text-yellow-400 cursor-pointer  p-1  rounded-full"
+            ><a
+              href="https://www.facebook.com/meherab.hossain.79/"
+              target="_blank"
+              >Hire Me</a
+            ></Span
+          >
+          <Span class="btn bg-gray-700 text-white hover:text-yellow-400 cursor-pointer mt-1 p-1  rounded-full">
+            <router-link to="/about">More About Me</router-link>
+          </Span>
+        </p>
+        <div class="mt-14">
+          <img
+            src="img/meherab.png"
+            class="border object-fill h-64 w-64 rounded-full ml-4 border-gray-100 shadow-sm"
+            alt="meherab"
+          />
+        </div>
+      </div>
+   {{content | safe }}
+{% endblock %}
